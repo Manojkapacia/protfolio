@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* .feedback{
+    position: relative;
+    display: block;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+} */
+
+.feedback .owl-next {
+    right: 65px;
+    top: -114px;
+    position: absolute;
+    font-size: 30px !important;
+    text-align: center !important;
+    width: 50px;
+    height: 50px;
+    padding: 0px !important;
+    background: #fff !important;
+    color: #ff5a5a !important;
+    border: 2px solid #f5f5f5 !important;
+    border-radius: 50% !important;
+}
+
+.feedback .owl-prev{
+    right: 121px;
+    top: -114px;
+    position: absolute;
+    font-size: 30px !important;
+    width: 50px;
+    height: 50px;
+    padding: 0px !important;
+    background: #fff !important;
+    color: #ff5a5a !important;
+    border: 2px solid #f5f5f5 !important;
+    border-radius: 50% !important;
+}
+
+@media only screen and (max-width: 768px) {
+     .feedback .owl-nav .owl-prev,.feedback .owl-nav .owl-next{
+        display: none;
+    }
+}

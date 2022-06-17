@@ -1,0 +1,65 @@
+
+.navButton {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: "Rubik",sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.navButton::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0;
+}
+
+.navButton {
+	background: #ec5b53;
+	transform: perspective(1px) translateZ(0);
+	transition: 0.5s;
+}
+
+.navButton::before {
+	background: #e44239;
+	clip-path: inset(0 100% 0 0);
+	transition: 0.5s;
+}
+
+.navButton:hover::before {
+	clip-path: inset(0 0 0 0);
+}
+
+
+@media (max-width: 1200px){
+.d-xl-block {
+    display: none!important;
+    }
+}
+
+.nav-link{
+    color:black;
+    text-transform: capitalize;
+    font-family: "Rubik",sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color:#ec5b53;
+  text-decoration-color: rgb(250, 114, 64);
+  -moz-text-decoration-color: rgb(250, 114, 64);
+  text-decoration-thickness: 0.15rem;
+}

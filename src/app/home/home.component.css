@@ -1,0 +1,365 @@
+.applyOnImage {
+    background-image: url("https://preview.colorlib.com/theme/personalportfolio/assets/img/hero/xh1_hero.jpg.pagespeed.ic.vrHQMYw6Y4.jpg");
+    position:relative;
+    background-position: center center;
+    max-width: 100%;
+    height: 55rem;
+    /* height: 1000px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.spanHeading {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: 300;
+    margin-bottom: 39px;
+    color: #ec5b53;
+    margin-bottom: 37px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.heading {
+    font-weight: 700;
+    color: #002d5b;
+    line-height: 1.2;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    font-family: "Rufina",serif;
+}
+
+p{
+    font-family: "Rubik",sans-serif;
+    color: #10285d;
+    font-size: 1.20rem;
+    line-height: 30px;
+    font-weight: normal;
+    margin-bottom: 3rem;
+}
+
+
+.navButton {
+    border: none;
+    color: #fff;
+    font-family: "Rubik",sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+    background: #ec5b53;
+	transition: 0.5s;
+    z-index: 1;
+}
+
+.navButton::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0;
+}
+
+.navButton::before {
+	background: #e44239;
+	clip-path: inset(0 100% 0 0);
+	transition: 0.5s;
+}
+
+.navButton:hover::before {
+	clip-path: inset(0 0 0 0);
+}
+
+
+.navButton2 {
+    color: #464d65;
+    font-family: "Rubik",sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+    background: #e1e5e8;
+	transition: 0.5s;
+    z-index: 1;
+}
+
+.navButton2::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0;
+}
+
+.navButton2::before {
+	background: #ec5b53;
+	clip-path: inset(0 0 100% 0);
+	transition: 0.5s;
+}
+
+.navButton2:hover::before {
+	clip-path: inset(0 0 0 0);
+}
+
+/* homeSection */
+
+.homeSection{
+    padding-top: 12rem;
+}
+
+.areaAbout {
+    font-size: 2.5rem;
+    color: #000a2d;
+    font-weight: 700;
+    margin-bottom: 2.2rem;
+    font-family: "Rufina",serif;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.areaPeragraph1{
+    font-family: "Rubik",sans-serif;
+    color: #10285d;
+    line-height: 2rem;
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+
+.areaHeading {
+    font-size: 3rem;
+    color: #000a2d;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: "Rufina",serif;
+}
+
+.areaParagraph2 {
+    color: #464d65;
+    font-size: 1.20rem;
+    font-weight: 700;
+    font-family: "Rubik",sans-serif;
+    line-height: 1rem;
+}
+
+.aboutRef{
+    color: #000a2d;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.fa{
+    font-size: 2rem;
+    font-weight: 300;
+    cursor: pointer;
+    /* text-decoration: double underline; */
+    padding-bottom: 1px ;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    position: relative;
+}
+
+/* ServiceSection First */
+
+/* .serviceSection{
+    background-image: url("https://image.shutterstock.com/image-photo/pastel-craft-white-cream-mulberry-260nw-521148130.jpg");
+    background-size: 71%;
+    background-repeat: no-repeat;
+    background-position: left top;
+    border-top-right-radius: 100% 5rem;
+    height: 5rem;
+} */
+
+.serviceHeading {
+    display: block;
+    font-size: 3rem;
+    color: #000a2d;
+    font-weight: 600;
+    font-family: "Rufina",serif;
+}
+
+.serviceSection .card{
+    border: 1px solid #e1ebf7;
+    border-radius: 6px;
+    padding: 2.5rem 1.2rem;
+    transition: all 0.5s;
+    position: relative;
+    overflow: hidden;
+    font-family: "Rubik",sans-serif;
+    /* background: #e1e5e8; */
+    z-index: 1;
+}
+.serviceSection .card::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0;
+}
+.serviceSection .card::before {
+	background: #ec5b53;
+	clip-path: inset(100% 0 0 0 );
+	transition: 1s;
+}
+.serviceSection .card:hover::before {
+	clip-path: inset(0 0 0 0);
+}
+.serviceSection .card:hover .cardContent p{
+    color: white;
+}
+.serviceSection .card:hover .cardContent a{
+    color: white;
+}
+
+.fontServiceIcon{
+    color: #ec5b53;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    width: 6rem;
+    height: 6rem;
+    background: #fff4f4;
+    line-height: 6rem;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.cardHeading{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    display: block;
+    color: #1c165c;
+    text-decoration: none
+}
+
+.card-text{
+    color: #57667e;
+    font-family: "Rubik",sans-serif;
+}
+
+.nav-link {
+    border: none;
+}
+
+.allImage{
+    height: 500px;
+}
+.allFirstImage{
+    height: 49%;
+
+}
+.allFirstImage img{
+    height: 100%;
+
+}
+
+.allSecondImage{
+    height: 49%;
+}
+
+.allSecondImage img{
+    height: 100%;
+}
+.allCommonImage{
+    height: 100%;
+}
+
+.feedbackHeading{
+    font-size: 48px;
+    display: block;
+    color: #000a2d;
+    font-weight: 600;
+    font-family: "Rufina",serif
+}
+
+
+.carouselCardH2{
+    color: #ec5b53;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Rufina",serif;
+}
+
+.carouselCardSpan {
+    color: #57667e;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: "Rubik",sans-serif;
+}
+
+.carouselCardP{
+    font-family: "Rubik",sans-serif;
+    color: #10285d;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.formContent{
+    background-color: #f8dfdd;
+}
+
+.formHeading {
+    font-size: 3.2rem;
+    display: block;
+    color: #000a2d;
+    font-weight: 600;
+    margin-bottom: 40px;
+    font-family: "Rufina",serif;
+}
+
+.formContent input {
+    background: #fff;
+    height: 4rem;
+    width: 100%;
+    padding: 10px 26px;
+    color: #a3a3a3;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.formContent textarea {
+    background: #fff;
+    width: 100%;
+    padding: 10px 26px;
+    color: #a3a3a3;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 2rem;
+}
+
+.formContent button {
+    background: #ec5b53;
+    width: 100%;
+    height: 4rem;
+    padding: 10px 20px;
+    border: 0;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0;
+}
+
+.carouselSlide img{
+    height: 200px;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
